@@ -8,6 +8,7 @@ public class Helloworld {
     @GetMapping("helloworldapi")
     public String helloWorld()
     {
+        System.out.println("Hi");
         return "HelloworldApi";
     }
 }
